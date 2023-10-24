@@ -70,3 +70,14 @@ const students = [
     grades: 84,
   },
 ];
+console.log(students);
+
+const targheStudents = students.map(
+  (student) => (student.name = student.name.toUpperCase())
+);
+const more70Students = students.filter((student) => student.grades > 70);
+const more70PlusId = students.filter(
+  (student) => student.grades > 70 && student.id > 120
+);
+
+console.log(targheStudents, more70Students, more70PlusId);
