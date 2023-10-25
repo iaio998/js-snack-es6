@@ -105,3 +105,17 @@ const bici = [
   },
 ];
 console.log(bici);
+
+const minor = [];
+
+bici.forEach((el, index) => {
+  const { peso } = bici[index];
+  console.log(peso);
+  minor.push(peso);
+});
+
+let minorEl = Math.min(...minor);
+console.log(minorEl);
+
+const lighterBike = bici.filter((el) => el.peso === minorEl);
+console.log(lighterBike);
