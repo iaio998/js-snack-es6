@@ -1,4 +1,4 @@
-// SNACK 1
+//! SNACK 1
 "use strict";
 const snack1 = "SNACK 1";
 console.log(snack1);
@@ -29,7 +29,7 @@ vipTable.forEach((item, index) => {
 });
 console.log(newTable);
 
-// SNACK 2
+//! SNACK 2
 const snack2 = "SNACK 2";
 console.log(snack2);
 
@@ -81,3 +81,9 @@ const more70PlusId = students.filter(
 );
 
 console.log(targheStudents, more70Students, more70PlusId);
+
+//! SNACK 3
+const snack3 = "SNACK 3";
+console.log(snack3);
+
+const bici = [];
