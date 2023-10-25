@@ -123,3 +123,31 @@ console.log(lighterBike);
 console.log(
   `La bici piu' leggera in vetrina e' ${lighterBike[0].nome} e pesa: ${lighterBike[0].peso} kg`
 );
+
+//! SNACK 4
+const snack4 = "SNACK 4";
+console.log(snack4);
+
+const squadre = [
+  {
+    nome: "Roma",
+    puntiFatti: 0,
+    falliSubiti: 0,
+  },
+  {
+    nome: "Lazio",
+    puntiFatti: 0,
+    falliSubiti: 0,
+  },
+  {
+    nome: "Inter",
+    puntiFatti: 0,
+    falliSubiti: 0,
+  },
+  {
+    nome: "Juventus",
+    puntiFatti: 0,
+    falliSubiti: 0,
+  },
+];
+console.log(squadre);
