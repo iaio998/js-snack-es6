@@ -92,6 +92,10 @@ const bici = [
     peso: 18,
   },
   {
+    nome: "Cristiana",
+    peso: 15,
+  },
+  {
     nome: "Verde",
     peso: 22,
   },
@@ -110,12 +114,12 @@ const minor = [];
 
 bici.forEach((el, index) => {
   const { peso } = bici[index];
-  console.log(peso);
+  console.log({ peso });
   minor.push(peso);
 });
 
-let minorEl = Math.min(...minor);
-console.log(minorEl);
-
-const lighterBike = bici.filter((el) => el.peso === minorEl);
+const lighterBike = bici.filter((el) => el.peso === Math.min(...minor));
 console.log(lighterBike);
+console.log(
+  `La bici piu' leggera in vetrina e' ${lighterBike[0].nome} e pesa: ${lighterBike[0].peso} kg`
+);
