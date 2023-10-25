@@ -86,4 +86,22 @@ console.log(targheStudents, more70Students, more70PlusId);
 const snack3 = "SNACK 3";
 console.log(snack3);
 
-const bici = [];
+const bici = [
+  {
+    nome: "Bianca",
+    peso: 18,
+  },
+  {
+    nome: "Verde",
+    peso: 22,
+  },
+  {
+    nome: "Nero",
+    peso: 21,
+  },
+  {
+    nome: "Grigio",
+    peso: 19,
+  },
+];
+console.log(bici);
