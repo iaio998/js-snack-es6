@@ -151,3 +151,17 @@ const squadre = [
   },
 ];
 console.log(squadre);
+
+const serieAPoint = [];
+
+squadre.forEach((el, i) => {
+  const copySquadre = {
+    ...squadre[i],
+    puntiFatti: getRndInteger(1, 100),
+    falliSubiti: getRndInteger(1, 100),
+  };
+  console.log(copySquadre);
+  const { puntiFatti, falliSubiti } = copySquadre;
+  serieAPoint.push({ puntiFatti, falliSubiti });
+});
+console.log(serieAPoint);
